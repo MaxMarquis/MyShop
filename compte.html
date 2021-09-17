@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- compte.html -->
+<!-- Programmé par: Maxim Marquis -->
+<!-- Dernière modification: 2021-08-28 -->
+<html lang="fr-ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/compte.css">
+    <title>Mon Compte</title>
+</head>
+
+<body class="compte">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/index.html">MyShop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Boutique</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/compte.html">Mon Compte <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/inscription.html">Inscription / Connexion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/panier.html"><i class="fas fa-shopping-cart">4</i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col">
+                <h3 class="compte__titre">Bonjour, Maxim !</h3>
+                <h5 class="compte__sousTitre">Bienvenue sur votre compte.</h5>
+                <p class="compte__texte mt-5">Votre dernière commande :</p>
+            </div>
+        </div>
+        <div class="row border">
+            <div class="col-3">
+                <p class="compte__texte--pale padding">17 septembre 2021</p>
+            </div>
+            <div class="offset-7 col-2">
+                <p class="compte__texte--pale padding"> 1 article <span class="compte__texte">57.87$</span></p>
+            </div>
+        </div>
+        <div class="row border">
+            <div class="col-2">
+                <img src="/img/souris.jpg" alt="souris" class="compte__img">
+            </div>
+            <div class="col-3">
+                <p class="compte__texte mt-5">Souris de jeu laser MMO G600 de Logitech - Noir</p>
+                <p class="compte__texte--pale">Quantité : 1</p>
+            </div>
+        </div>
+        <div class="row border">
+            <div class="col-6">
+                <p class="compte__texte padding">Numéro de commande <span class="compte__texte--pale">914542194</span>
+                </p>
+            </div>
+            <div class="offset-4 col-2 padding">
+                <a href="#">Voir les détails <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="row border">
+            <div class="col-2 mt-4">
+                <p class="compte__texte--pale">Livré</p>
+                <p class="compte__texte">Mercredi<br>Mai<br><span class="compte__texte--date">19</span></p>
+            </div>
+            <div>
+                <hr class="separation mt-5" />
+            </div>
+            <div class="col-2 mt-5">
+                <p class="compte__texte">Livré</p>
+                <img src="/img/recu.png" alt="recu">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

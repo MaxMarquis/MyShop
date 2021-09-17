@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<!-- Programmé par: Maxim Marquis -->
+<!-- Dernière modification: 2021-09-11 -->
+<html lang="fr-ca">
+
+<!-- Il y a une page produit qui s'affiche lorsqu'on clique sur l'image d'un produit -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>MyShop</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/index.html">MyShop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline mx-auto my-2 my-lg-0">
+                    <input id="search--input" class="form-control" type="search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/index.html">Boutique <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/compte.html">Mon Compte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/inscription.html">Inscription / Connexion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/panier.html"><i class="fas fa-shopping-cart">4</i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Aubaines vedette -->
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col text-center">
+                <h4>Aubaines en vedette</h4>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-3">
+                <div>
+                    <img src="./img/ht-20210910-offer-tv-topdeal-m.jpg" alt="placeholdit" class="card-img-top">
+                    <h6>Economisez jusqu'à 50% sur les téléviseurs</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio omnis
+                        vero aspernatur veritatis error autem dolorum incidunt quis.</p>
+                    <a href="/">Magasinez <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-3">
+                <div>
+                    <img src="./img/computing-20210910-offer-laptops-top-deals-m.jpg" alt="placeholdit"
+                        class="card-img-top">
+                    <h6>Economisez jusqu'à 100$ sur les portables</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio omnis
+                        vero aspernatur veritatis error autem dolorum incidunt quis.</p>
+                    <a href="/">Magasinez <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-3">
+                <div>
+                    <img src="./img/di-20210910-offer-cameras-top-deals-m.jpg" alt="placeholdit" class="card-img-top">
+                    <h6>Economisez jusqu'à 200$ sur les appareils photo</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio omnis
+                        vero aspernatur veritatis error autem dolorum incidunt quis.</p>
+                    <a href="/">Magasinez <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-3">
+                <div>
+                    <img src="./img/pa-20210910-offer-td-pa-on-sale-m.jpg" alt="placeholdit" class="card-img-top">
+                    <h6>Economisez jusqu'à 40% sur une sélection de produits audio portatifs</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio omnis
+                        vero aspernatur veritatis error autem dolorum incidunt quis.</p>
+                    <a href="/">Magasinez <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Téléviseurs -->
+    <div class="container televiseurs">
+        <div class="row mt-5">
+            <div class="col text-center">
+                <h4>Télés et produits de cinéma maison en solde</h4>
+            </div>
+        </div>
+        <div class="row">
+            <!-- télé 1 -->
+            <div class="col-4">
+                <div class="card border-0">
+                    <a href="/produit.html"><img class="card-img-top" src="./img/15337847.jpg" alt="Téléviseur"></a>
+                    <div class="card-body">
+                        <p class="card-text">Télé. intel. Tizen HDR QLED UHD 4K 65 po Samsung (QN65QN88AAFXZC) -
+                            2021 -
+                            Titane noir - Exclu. BBY</p>
+                        <p class="card-text televiseurs--prix">2518.99 $</p>
+                        <div class="note">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <p>4.8(595 évaluations)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- télé 2 -->
+            <div class="col-4">
+                <div class="card border-0">
+                    <a href="/produit.html"><img class="card-img-top" src="./img/15387989.jpg" alt="Téléviseur"></a>
+                    <div class="card-body">
+                        <p class="card-text">Téléviseur intelligent webOS HDR DELO UHD 4K de 77 po de LG (OLED77C1AUB) -
+                            2021</p>
+                        <p class="card-text televiseurs--prix">4 518.99 $</p>
+                        <div class="note">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <p>4.7(216 évaluations)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- télé 3 -->
+            <div class="col-4">
+                <div class="card border-0">
+                    <a href="/produit.html"><img class="card-img-top" src="./img/15427808.jpg" alt="Téléviseur"></a>
+                    <div class="card-body">
+                        <p class="card-text">Téléviseur intelligent Tizen HDR DEL UHD 4K de 75 po de Samsung
+                            (UN75AU8000FXZC) - 2021</p>
+                        <p class="card-text televiseurs--prix">1 518.99 $</p>
+                        <div class="note">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <p>4.5(727 évaluations)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- télé 4 -->
+            <div class="col-4">
+                <div class="card border-0">
+                    <a href="/produit.html"><img class="card-img-top" src="./img/15442045.jpg" alt="Téléviseur"></a>
+                    <div class="card-body">
+                        <p class="card-text">Téléviseur intelligent Google HDR DEL UHD 4K de 75 po X85J de Sony
+                            (KD75X85J) - 2021</p>
+                        <p class="card-text televiseurs--prix">2 018.99 $</p>
+                        <div class="note">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <p>4.9(136 évaluations)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- télé 5 -->
+            <div class="col-4">
+                <div class="card border-0">
+                    <a href="/produit.html"><img class="card-img-top" src="./img/13408200.jpg" alt="Téléviseur"></a>
+                    <div class="card-body">
+                        <p class="card-text">Haut-parleur colonne à 3 voies de 145 W SS-CS3 de Sony - Unité - Noir</p>
+                        <p class="card-text televiseurs--prix">250.79 $</p>
+                        <div class="note">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                            <p>3.6(966 évaluations)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- télé 6 -->
+            <div class="col-4">
+                <div class="card border-0">
+                    <a href="/produit.html"><img class="card-img-top" src="./img/15337850.jpg" alt="Téléviseur"></a>
+                    <div class="card-body">
+                        <p class="card-text">Téléviseur intelligent SE Tizen HDR QLED UHD 4K de 85 po de Samsung
+                            (QN85Q70AAFXZC) - 2021</p>
+                        <p class="card-text televiseurs--prix">3 318.79 $</p>
+                        <div class="note">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <p>4.8(960 évaluations)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <!-- <script src="js/main.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+.fa-star {
+  color: gold;
+}
+
+.produit__titre {
+  font-weight: 500;
+  font-size: 1.9rem;
+}
+.produit__note {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.produit__prix {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #bb0628;
+}
+.produit__prix--petit {
+  font-size: 1rem;
+  position: relative;
+  top: -0.8rem;
+}
+.produit__prix--texte {
+  margin-top: -1rem;
+  font-size: 0.9rem;
+}
+.produit__img {
+  margin-top: 1.5rem;
+  width: 100%;
+}

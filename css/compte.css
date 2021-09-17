@@ -1,0 +1,39 @@
+p {
+  margin: 0;
+}
+
+.padding {
+  padding: 1rem;
+}
+
+.compte {
+  background-color: #fdfefe;
+}
+.compte__titre {
+  color: #0046be;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.compte__sousTitre {
+  font-size: 1.5rem;
+  font-weight: 1rem;
+  letter-spacing: 0.1rem;
+}
+.compte__texte {
+  font-weight: 700;
+}
+.compte__texte--pale {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+.compte__texte--date {
+  color: #0046be;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.separation {
+  height: 7rem;
+  width: 0.1rem;
+  background: black;
+}

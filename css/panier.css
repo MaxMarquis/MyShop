@@ -1,0 +1,22 @@
+.panier {
+  font-size: 2rem;
+}
+.panier__img {
+  width: 15rem;
+}
+.panier__titre {
+  padding-top: 2.5rem;
+  font-size: 1.3rem;
+}
+.panier__qte {
+  width: 3rem;
+  margin-top: 2.5rem;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.8rem;
+  margin-left: 1rem;
+}
+.panier__bouton {
+  font-size: 1.2rem;
+  border: 0;
+  background-color: white;
+}

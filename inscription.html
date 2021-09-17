@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- inscription.html -->
+<!-- Programmé par: Maxim Marquis -->
+<!-- Dernière modification: 2021-08-28 -->
+<html lang="fr-ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/inscription.css">
+    <title>Inscription / Connection</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">MyShop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Boutique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/compte.html">Mon Compte</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/inscription.html">Inscription / Connexion <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/panier.html"><i class="fas fa-shopping-cart">4</i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-5">
+                <h4 class="">Connection</h4>
+                <form class="mt-5">
+                    <div class="form-group">
+                        <label for="loginUsername">E-mail</label>
+                        <input type="text" class="form-control" id="loginUsername">
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword">Password</label>
+                        <input type="password" class="form-control" id="loginPassword">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Connection</button>
+                </form>
+            </div>
+            <div class="col-2">
+                <hr class="separation mt-5" />
+            </div>
+            <div class="col-5">
+                <h4>Création de compte</h4>
+                <form class="mt-5">
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="rLastName">Nom</label>
+                            <input type="text" id="rLastName" class="form-control" pattern="[A-Za-z]{3,20}"
+                                title="Le nom doit contenir entre 3 et 20 caractères" required>
+                        </div>
+                        <div class="col-6">
+                            <label for="rFirstName">Prénom</label>
+                            <input type="text" id="rFirstName" class="form-control" pattern="[A-Za-z]{3,20}"
+                                title="Le prénom doit contenir entre 3 et 20 caractères" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="rBirthdate">Date de naissance</label>
+                        <input type="date" class="form-control" id="rBirthdate" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="rVille">Ville</label>
+                            <input type="text" id="rVille" class="form-control" pattern="[A-Za-z]{2,}"
+                                title="La ville doit contenir un minimum de 2 caractères" required>
+
+                        </div>
+                        <div class="col-6">
+                            <label for="rProvince">Province</label>
+                            <input type="text" id="rProvince" class="form-control" pattern="[A-Za-z]{2,}"
+                                title="La province doit contenir un minimum de 2 caractères" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="rEmail">E-mail</label>
+                        <input type="email" class="form-control" id="rEmail"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="characters@characters.domain"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="rPhoneNumber">Téléphone</label>
+                        <input type="text" class="form-control" id="rPhoneNumber"
+                            pattern="[0-9]{3}[ -][0-9]{3}[ -][0-9]{4}" title="123-456-7890" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword">Password</label>
+                        <input type="password" class="form-control" id="loginPassword"
+                            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                            title="Le mot de passe doit contenir au moins un nombre, une majuscule, une minuscule et doit avoir au minimum 8 caractere"
+                            required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Créer mon compte</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

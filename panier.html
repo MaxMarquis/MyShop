@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- panier.html -->
+<!-- Programmé par: Maxim Marquis -->
+<!-- Dernière modification: 2021-08-28 -->
+<html lang="fr-ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/panier.css">
+    <title>Panier</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/index.html">MyShop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Boutique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/compte.html">Mon Compte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/inscription.html">Inscription / Connexion</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/panier.html"><i class="fas fa-shopping-cart">4<span
+                                    class="sr-only">(current)</span></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Panier Article #1 -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="panier">Mon Panier</p>
+            </div>
+        </div>
+        <div class="row border">
+            <div class="col-3">
+                <img src="img/15442045.jpg" alt="test" class="panier__img">
+            </div>
+            <div class="col-7">
+                <p class="panier__titre">Téléviseur intelligent Google HDR DEL UHD 4K de 75 po X85J de Sony (KD75X85J) -
+                    2021</p>
+                <p class="panier__desc">Écran Ultra HD 4K à DEL de 75 po avec résolution de 3840 x 2160 affichant des
+                    images lumineuses, claires et nettes. Processeur X1 4K HDR garantissant une clarté exceptionnelle,
+                    des couleurs éclatantes et un contraste détaillé</p>
+            </div>
+            <div class="col-2">
+                <input class="panier__qte border" value="1" maxlength="2"></input>
+                <button class="panier__bouton">
+                    <i class="fas fa-plus-circle"></i>
+                </button>
+                <button class="panier__bouton">
+                    <i class="fas fa-minus-circle"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Panier Article #2 -->
+    <div class="container mt-4">
+        <div class="row border">
+            <div class="col-3">
+                <img src="img/15427808.jpg" alt="test" class="panier__img">
+            </div>
+            <div class="col-7">
+                <p class="panier__titre">Téléviseur intelligent Tizen HDR DEL UHD 4K de 75 po de Samsung
+                    (UN75AU8000FXZC) - 2021</p>
+                <p class="panier__desc">Écran Ultra HD 4K à DEL de 75 po avec résolution de 3840 x 2160 affichant des
+                    images lumineuses, claires et nettes. Processeur X1 4K HDR garantissant une clarté exceptionnelle,
+                    des couleurs éclatantes et un contraste détaillé</p>
+            </div>
+            <div class="col-2">
+                <input class="panier__qte border" value="1" maxlength="2"></input>
+                <button class="panier__bouton">
+                    <i class="fas fa-plus-circle"></i>
+                </button>
+                <button class="panier__bouton">
+                    <i class="fas fa-minus-circle"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Panier Article #3 -->
+    <div class="container mt-4">
+        <div class="row border">
+            <div class="col-3">
+                <img src="img/15387989.jpg" alt="test" class="panier__img">
+            </div>
+            <div class="col-7">
+                <p class="panier__titre">Téléviseur intelligent webOS HDR DELO UHD 4K de 77 po de LG (OLED77C1AUB) -
+                    2021</p>
+                <p class="panier__desc">Écran Ultra HD 4K à DEL de 75 po avec résolution de 3840 x 2160 affichant des
+                    images lumineuses, claires et nettes. Processeur X1 4K HDR garantissant une clarté exceptionnelle,
+                    des couleurs éclatantes et un contraste détaillé</p>
+            </div>
+            <div class="col-2">
+                <input class="panier__qte border" value="1" maxlength="2"></input>
+                <button class="panier__bouton">
+                    <i class="fas fa-plus-circle"></i>
+                </button>
+                <button class="panier__bouton">
+                    <i class="fas fa-minus-circle"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Panier Article #4 -->
+    <div class="container my-4 ">
+        <div class="row border">
+            <div class="col-3">
+                <img src="img/13408200.jpg" alt="test" class="panier__img">
+            </div>
+            <div class="col-7">
+                <p class="panier__titre">Haut-parleur colonne à 3 voies de 145 W SS-CS3 de Sony - Unité - Noir</p>
+                <p class="panier__desc">Écran Ultra HD 4K à DEL de 75 po avec résolution de 3840 x 2160 affichant des
+                    images lumineuses, claires et nettes. Processeur X1 4K HDR garantissant une clarté exceptionnelle,
+                    des couleurs éclatantes et un contraste détaillé</p>
+            </div>
+            <div class="col-2">
+                <input class="panier__qte border" value="1" maxlength="2"></input>
+                <button class="panier__bouton">
+                    <i class="fas fa-plus-circle"></i>
+                </button>
+                <button class="panier__bouton">
+                    <i class="fas fa-minus-circle"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
