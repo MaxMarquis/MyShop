@@ -1,7 +1,7 @@
 {
     "name": "MyShop - Ma boutique en ligne",
     "short_name": "MyShop",
-    "start_url": "maxmarquis.github.io/MyShop/index.html",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#fdfefe",
     "theme_color": "#fdfefe",
