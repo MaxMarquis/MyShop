@@ -5,7 +5,7 @@ const CACHE_MYSHOP = 'static-cache-v1.1';
 //Add list of files to cache here.
 
 const FILES_TO_CACHE = [
-    
+    './index.html','./compte.html'
 ];
 
 self.addEventListener('install', (evt) => {
