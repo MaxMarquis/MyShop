@@ -1,6 +1,6 @@
 //Update cache names any time any of the cached files change.
 
-const CACHE_MYSHOP = 'static-cache-v1.13';
+const CACHE_MYSHOP = 'static-cache-v1.2';
 
 //Add list of files to cache here.
 
@@ -9,7 +9,9 @@ const FILES_TO_CACHE = [
     '/MyShop/compte.html',
     '/MyShop/inscription.html',
     '/MyShop/panier.html',
-    '/MyShop/produit.html'
+    '/MyShop/produit.html',
+    '/MyShop/img/souris.jpg',
+    '/MyShop/img/recu.png',
 ];
 
 self.addEventListener('install', (evt) => {

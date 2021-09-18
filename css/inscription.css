@@ -3,3 +3,11 @@
   width: 0.1rem;
   background: black;
 }
+
+@media (max-width: 991px) {
+  .separation {
+    height: 0.1rem;
+    width: 25rem;
+    background: black;
+  }
+}

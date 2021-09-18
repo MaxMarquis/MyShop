@@ -46,25 +46,25 @@
 
     <div class="container">
         <div class="row mt-5">
-            <div class="col-12 col-md-5">
+            <div class="col-12 col-md-5 text-center mx-auto">
                 <h4 class="">Connection</h4>
                 <form class="mt-5">
-                    <div class="form-group">
+                    <div class="form-group row">
                         <label for="loginUsername">E-mail</label>
                         <input type="text" class="form-control" id="loginUsername">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group row">
                         <label for="loginPassword">Password</label>
                         <input type="password" class="form-control" id="loginPassword">
                     </div>
                     <button type="submit" class="btn btn-primary">Connection</button>
                 </form>
             </div>
-            <div class="col-md-2">
+            <div class="col-lg-2">
                 <hr class="separation mt-5" />
             </div>
-            <div class="col-12 col-md-5">
-                <h4>Création de compte</h4>
+            <div class="col-12 col-md-5 mx-auto">
+                <h4 class="text-center">Création de compte</h4>
                 <form class="mt-5">
                     <div class="row">
                         <div class="col-6">
@@ -78,7 +78,7 @@
                                 title="Le prénom doit contenir entre 3 et 20 caractères" required>
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group mt-3">
                         <label for="rBirthdate">Date de naissance</label>
                         <input type="date" class="form-control" id="rBirthdate" required>
                     </div>
@@ -94,25 +94,27 @@
                                 title="La province doit contenir un minimum de 2 caractères" required>
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group mt-3">
                         <label for="rEmail">E-mail</label>
                         <input type="email" class="form-control" id="rEmail"
                             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="characters@characters.domain"
                             required>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group mt-3">
                         <label for="rPhoneNumber">Téléphone</label>
                         <input type="text" class="form-control" id="rPhoneNumber"
                             pattern="[0-9]{3}[ -][0-9]{3}[ -][0-9]{4}" title="123-456-7890" required>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group mt-3">
                         <label for="loginPassword">Password</label>
                         <input type="password" class="form-control" id="loginPassword"
                             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
                             title="Le mot de passe doit contenir au moins un nombre, une majuscule, une minuscule et doit avoir au minimum 8 caractere"
                             required>
                     </div>
-                    <button type="submit" class="btn btn-primary">Créer mon compte</button>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Créer mon compte</button>
+                    </div>
                 </form>
             </div>
         </div>
