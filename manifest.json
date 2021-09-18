@@ -7,6 +7,10 @@
     "theme_color": "#fdfefe",
     "icons": [
         {
+            "src": "/MyShop/img/pwa/maskable_icon.png",
+            "sizes": "512x512"
+        },
+        {
             "src": "/MyShop/img/pwa/msteams/msteams-192-192.png",
             "sizes": "192x192"
         },
