@@ -8,53 +8,43 @@
     "icons": [
         {
             "src": "/MyShop/img/pwa/windows10/Square150x150Logo.scale-100.png",
-            "sizes": "150x150",
-            "purpose": "any maskable"
+            "sizes": "150x150"
         },
         {
             "src": "/MyShop/img/pwa/msteams/msteams-192-192.png",
-            "sizes": "192x192",
-            "purpose": "any maskable"
+            "sizes": "192x192"
         },
         {
             "src": "/MyShop/img/pwa/android/android-launchericon-512-512.png",
-            "sizes": "512x512",
-            "purpose": "any maskable"
+            "sizes": "512x512"
         },
         {
             "src": "/MyShop/img/pwa/android/android-launchericon-192-192.png",
-            "sizes": "192x192",
-            "purpose": "any maskable"
+            "sizes": "192x192"
         },
         {
             "src": "/MyShop/img/pwa/android/android-launchericon-144-144.png",
-            "sizes": "144x144",
-            "purpose": "any maskable"
+            "sizes": "144x144"
         },
         {
             "src": "/MyShop/img/pwa/android/android-launchericon-72-72.png",
-            "sizes": "72x72",
-            "purpose": "any maskable"
+            "sizes": "72x72"
         },
         {
             "src": "/MyShop/img/pwa/android/android-launchericon-48-48.png",
-            "sizes": "48x48",
-            "purpose": "any maskable"
+            "sizes": "48x48"
         },
         {
             "src": "/MyShop/img/pwa/chrome/chrome-extensionmanagementpage-48-48.png",
-            "sizes": "48x48",
-            "purpose": "any maskable"
+            "sizes": "48x48"
         },
         {
             "src": "/MyShop/img/pwa/chrome/chrome-favicon-16-16.png",
-            "sizes": "16x16",
-            "purpose": "any maskable"
+            "sizes": "16x16"
         },
         {
             "src": "/MyShop/img/pwa/chrome/chrome-installprocess-128-128.png",
-            "sizes": "128x128",
-            "purpose": "any maskable"
+            "sizes": "128x128"
         }
     ]
 }
