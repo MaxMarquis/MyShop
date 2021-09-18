@@ -7,10 +7,6 @@
     "theme_color": "#fdfefe",
     "icons": [
         {
-            "src": "/MyShop/img/pwa/windows10/Square150x150Logo.scale-150.png",
-            "sizes": "150x150"
-        },
-        {
             "src": "/MyShop/img/pwa/msteams/msteams-192-192.png",
             "sizes": "192x192"
         },
