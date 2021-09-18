@@ -1,6 +1,6 @@
 //Update cache names any time any of the cached files change.
 
-const CACHE_MYSHOP = 'static-cache-v1';
+const CACHE_MYSHOP = 'static-cache-v1.1';
 
 //Add list of files to cache here.
 
